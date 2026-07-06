@@ -1,4 +1,4 @@
-[7/6/2026 12:12 AM] Prince Noble: # BCP 210: Data Structures and Algorithms I
+# BCP 210: Data Structures and Algorithms I
 # Coursework Assignment 2 — Part D: Hash Tables and Binary Search Trees
 # Academic Year 2025/2026
 #
@@ -108,7 +108,7 @@ def insert(root, student_id, grade_score):
 
     Returns:
         BSTNode: The (possibly new) root of the subtree after insertion.
-[7/6/2026 12:12 AM] Prince Noble: """
+"""
     if not root:
         return BSTNode(student_id, grade_score)
     
