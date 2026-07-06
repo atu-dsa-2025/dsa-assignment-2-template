@@ -1,4 +1,4 @@
-[7/6/2026 12:33 AM] Prince Noble: # BCP 210: Data Structures and Algorithms I
+# BCP 210: Data Structures and Algorithms I
 # Coursework Assignment 2 — Part E: Bonus Challenge
 # Academic Year 2025/2026
 #
@@ -110,7 +110,7 @@ if name == "main":
     print(f"\n  No-conflict sessions result: {nc_map}")
     print(f"  Expected: {{'R3': []}}")
     print(f"  PASS: {nc_map == {'R3': []}}")
-[7/6/2026 12:33 AM] Prince Noble: # E2 — detect first conflict using a stack
+# E2 — detect first conflict using a stack
     print("\n--- E2: detect_first_conflict ---")
 
     r1_sessions = [(0, 8, 10), (1, 9, 11), (2, 11, 13)]
